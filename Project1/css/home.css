@@ -1,0 +1,16 @@
+
+body{
+  background-color: #273343;
+  font-family: sans-serif;
+  color: White;
+  margin: 8px;
+}
+
+h1: {
+  color: red;
+}
+
+
+.shaded {
+  background-color: #d0d0ff;
+}
