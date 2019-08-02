@@ -1,16 +1,107 @@
-
-body{
-  background-color: #273343;
-  font-family: sans-serif;
-  color: White;
-  margin: 8px;
+/* Properties of Bdy */
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 22px;
+    font-size: 14px;
+    background: #273242;
+    -webkit-font-smoothing: antialiased;
 }
 
-h1: {
-  color: red;
+/* Properties of the MenuBar */
+div.menubar{
+  position: static;
+  text-align: center;
+  background: #52647a;
+  margin-top: 120px;
+  width: 60%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #52647a;
+
+}
+
+li{
+  float: left;
+  border-left: 1px solid #4c5d72;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #21af8d;
+}
+
+h1.header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration-color: white;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-left: 370px;
+}
+
+/*   Header */
+div.header{
+  position:sticky;
+  top: 0;
+  display:block
+  width: auto;
+  height: 50px;
+  margin: 10px auto;
+  padding: 0px;
+  background-color: #21af8d;
 }
 
 
-.shaded {
-  background-color: #d0d0ff;
+/* Properties of DIV After MenuBar */
+div.Slider{
+width: 60%;
+height: 30%;
+margin: 0px auto;
+padding-right: 5px;
+}
+
+div.Col{
+width: 60%;
+height: 40%;
+margin: 0 auto;
+padding: 150px 0px;
+background-color: #4c5d90;
+}
+
+div.testimo{
+width: 60%;
+height: 40%;
+margin: 0px auto;
+padding: 160px 0px;
+background-color: #4c5d78;
+}
+
+
+/* Properties of Paragraph */
+p {
+  font-family: verdana;
+  font-size: 12px;
+  margin: 20px 220px 75px;
 }
