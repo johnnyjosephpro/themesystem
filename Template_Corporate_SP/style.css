@@ -1,4 +1,59 @@
 body{
-    font-family: Google Sans;
+    font-family: 'Google Sans', Arial, sans-serif;
+
+}
+
+header{
+    height: 120px;
+   
+}
+
+.wrapper{
+     width: 950px;
+     margin: 0 auto;
+     padding: 0 10px;
+}
+
+.wrapper_bar{
+    height: 20px auto;
+    background-color:#444;
+}
+
+ul {
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+header h2{
+    float:left;
+    font-family: 'Google Sans', 'Crete Round', serif;
+    font-size: 30px;
+    color:#444;
+    margin-top: 15px;
+}
+
+#title_theme{
+    font-size: 10px;
+}
+
+header nav{
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-family: 'Google Sans';
+    font-size: 16px;
     
+}
+
+header nav ul li a{
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+    margin-right: 5px;
+    color: #444;
 }
