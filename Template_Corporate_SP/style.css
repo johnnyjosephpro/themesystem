@@ -77,5 +77,11 @@ li :hover{
     border-bottom: 2px solid #4c5d72;
 }
 
+/* *********************** Home page *************************** */
+
+div.info{
+    /* background-color: #4c5d72; */
+    height: 300px;
+}
 
 /* *********************** Footer *************************** */
